@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelling Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #e0f7fa;
+            color: #333;
+        }
+        header {
+            background-color: #00796b;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #004d40;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            display: flex;
+            flex-wrap: wrap;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .content-left, .content-right {
+            padding: 20px;
+            flex: 1;
+            min-width: 300px;
+        }
+        .post {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 15px;
+        }
+        .post img {
+            max-width: 100%;
+            border-radius: 4px;
+        }
+        .post-title {
+            font-size: 1.5em;
+            color: #00796b;
+        }
+        .post-info {
+            font-size: 0.9em;
+            color: #666;
+        }
+        .post-body {
+            margin: 10px 0;
+        }
+        .sidebar {
+            background-color: #f9f9f9;
+            border-left: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 8px;
+            margin-left: 20px;
+        }
+        footer {
+            background-color: #00796b;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        h2 {
+            color: #00796b;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Travelling</h1>
+    <p>Want to know about Travelling? Sign up now</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html" class="current">Home</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="signup.html">Sign up</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+    <div class="content-left">
+        <div class="post">
+            <div class="post-title">Travelling</div>
+            <div class="post-info">Posted by <a href="#">Admin</a>, October 26, 2024 at 10:12 am</div>
+            <div class="post-body">
+                <img src="images/templatemo_image_02.jpg" alt="Template Image" />
+                <p>Traveling is the act of moving from one place to another, often for exploration, leisure, or cultural experiences. It allows individuals to discover new landscapes, meet diverse people, and immerse themselves in different traditions and cuisines. Beyond mere transportation, travel can broaden perspectives, inspire creativity, and create lasting memories. Whether through spontaneous adventures or planned excursions, each journey offers unique opportunities for personal growth and connection with the world.</p>
+                <p>Credits go to <a href="http://chatgpt.com/" target="_blank">ChatGPT</a></p>
+            </div>
+        </div>
+
+        <div class="post">
+            <div class="post-title"></div>
+            <div class="post-info">Posted by <a href="#">Admin</a>, December 6, 2024 at 11:24 am</div>
+            <div class="post-body">
+                <img src="images/templatemo_image_01.jpg" alt="Template Image" />
+                <p></p>
+                <p></p>
+            </div>
+        </div>
+    </div>
+
+    <aside class="content-right sidebar">
+        <h2>Popular Posts</h2>
+        <ul>
+        </ul>
+
+        <h2>Top of the countries to travel</h2>
+        <ul>
+            <li><a href="#">January 2024</a></li>
+            <li><a href="#">Febuary 2024</a></li>
+            <li><a href="#">March 2024</a></li>
+            <li><a href="#">April 2024</a></li>
+            <li><a href="#">May 2024</a></li>
+        </ul>
+
+        <h2>About this Blog</h2>
+        <p>Traveling is the act of journeying to different places, often for leisure, exploration, or cultural experiences. It allows individuals to immerse themselves in diverse environments, encounter new people, and gain fresh perspectives.</p>
+    </aside>
+</div>
+
+<footer>
+    <p>&copy; 2024 Travelling Blog. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
